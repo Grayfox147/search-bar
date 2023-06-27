@@ -4,7 +4,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import SearchBar from './components/searchbar';
 import './App.css';
 
-function App() {
+export default function App() {
     return (
         <HelmetProvider>
             <div className="App">
@@ -14,4 +14,3 @@ function App() {
     );
 }
 
-export default App;
